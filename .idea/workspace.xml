@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf1c024f-aeca-4ffd-acf6-5f142d6f31ae" name="Changes" comment="Rounding Numbers,Consumer Predicate ,Password Generator">
-      <change afterPath="$PROJECT_DIR$/src/Lambda/SortEmployees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambda/ThreadToPrintEmpAndUsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambda/UserNameGenerator.java" afterDir="false" />
+    <list default="true" id="bf1c024f-aeca-4ffd-acf6-5f142d6f31ae" name="Changes" comment="Streams">
+      <change afterPath="$PROJECT_DIR$/src/StreamsAndConcurrency/CommaSepFirstNames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StreamsAndConcurrency/FiftyOddNumbersAfterHundred.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StreamsAndConcurrency/IncrementedSalary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StreamsAndConcurrency/PrintFirstName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StreamsAndConcurrency/PrintSalary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StreamsAndConcurrency/SortedListByFirstName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SupplierPasswordGenerator/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SupplierPasswordGenerator/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConsumerPredicate/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConsumerPredicate/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConsumerPredicate/EmployeeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConsumerPredicate/EmployeeList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +42,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CommaSepFirstNames.executor": "Run",
     "Application.ConsumerMain.executor": "Run",
+    "Application.FiftyOddNumbersAfterHundred.executor": "Run",
+    "Application.IncrementedSalary.executor": "Run",
     "Application.PredicateMain.executor": "Run",
+    "Application.PrintFirstName.executor": "Run",
+    "Application.PrintSalary.executor": "Run",
     "Application.RoundingOfNumbers.executor": "Run",
     "Application.SortEmployees.executor": "Run",
+    "Application.SortedListByFirstName.executor": "Run",
     "Application.SupplierMain.executor": "Run",
     "Application.ThreadToPrintEmpAndUsers.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -57,13 +67,13 @@
       <recent name="C:\Users\User\Training\Assessments\src\ConsumerPredicate" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadToPrintEmpAndUsers">
-    <configuration name="ConsumerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ConsumerPredicate.ConsumerMain" />
+  <component name="RunManager" selected="Application.SortedListByFirstName">
+    <configuration name="FiftyOddNumbersAfterHundred" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StreamsAndConcurrency.FiftyOddNumbersAfterHundred" />
       <module name="Assessments" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ConsumerPredicate.*" />
+          <option name="PATTERN" value="StreamsAndConcurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredicateMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ConsumerPredicate.PredicateMain" />
+    <configuration name="IncrementedSalary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StreamsAndConcurrency.IncrementedSalary" />
       <module name="Assessments" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ConsumerPredicate.*" />
+          <option name="PATTERN" value="StreamsAndConcurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortEmployees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lambda.SortEmployees" />
+    <configuration name="PrintFirstName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StreamsAndConcurrency.PrintFirstName" />
       <module name="Assessments" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lambda.*" />
+          <option name="PATTERN" value="StreamsAndConcurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SupplierMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SupplierPasswordGenerator.SupplierMain" />
+    <configuration name="PrintSalary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StreamsAndConcurrency.PrintSalary" />
       <module name="Assessments" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SupplierPasswordGenerator.*" />
+          <option name="PATTERN" value="StreamsAndConcurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadToPrintEmpAndUsers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lambda.ThreadToPrintEmpAndUsers" />
+    <configuration name="SortedListByFirstName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StreamsAndConcurrency.SortedListByFirstName" />
       <module name="Assessments" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lambda.*" />
+          <option name="PATTERN" value="StreamsAndConcurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreadToPrintEmpAndUsers" />
-        <item itemvalue="Application.SortEmployees" />
-        <item itemvalue="Application.SupplierMain" />
-        <item itemvalue="Application.PredicateMain" />
-        <item itemvalue="Application.ConsumerMain" />
+        <item itemvalue="Application.SortedListByFirstName" />
+        <item itemvalue="Application.IncrementedSalary" />
+        <item itemvalue="Application.PrintSalary" />
+        <item itemvalue="Application.PrintFirstName" />
+        <item itemvalue="Application.FiftyOddNumbersAfterHundred" />
       </list>
     </recent_temporary>
   </component>
@@ -157,11 +167,21 @@
       <option name="project" value="LOCAL" />
       <updated>1712568443786</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Lambda Implementation">
+      <option name="closed" value="true" />
+      <created>1712688780738</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712688780738</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Rounding Numbers,Consumer Predicate ,Password Generator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rounding Numbers,Consumer Predicate ,Password Generator" />
+    <MESSAGE value="Lambda Implementation" />
+    <MESSAGE value="Streams" />
+    <option name="LAST_COMMIT_MESSAGE" value="Streams" />
   </component>
 </project>

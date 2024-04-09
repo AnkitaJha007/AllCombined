@@ -9,13 +9,25 @@ public class Employee {
     private double salary;
     private String department;
 
-    public Employee(String firstName, String lastName, int id, LocalDate dateOfBirth, double salary, String department) {
+    private int joiningYear;
+    public int getJoiningYear() {
+        return joiningYear;
+    }
+
+    public void setJoiningYear(int joiningYear) {
+        this.joiningYear = joiningYear;
+    }
+
+
+
+    public Employee(String firstName, String lastName, int id, LocalDate dateOfBirth, double salary, String department,int joiningYear) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.id = id;
         this.dateOfBirth = dateOfBirth;
         this.salary = salary;
         this.department = department;
+        this.joiningYear = joiningYear;
     }
 
 
@@ -80,7 +92,7 @@ public class Employee {
     @Override
     public String toString() {
         return "Employee ID: " + id + "\nName: " + firstName + " " + lastName + "\nDate of Birth: " + dateOfBirth +
-                "\nSalary: " + salary + "\nDepartment: " + department;
+                "\nSalary: " + salary + "\nDepartment: " + department + "\nJoining Year:" + joiningYear;
     }
 
 }
