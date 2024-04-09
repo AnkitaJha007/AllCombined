@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf1c024f-aeca-4ffd-acf6-5f142d6f31ae" name="Changes" comment="Rounding Numbers,Consumer Predicate ,Password Generator">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assessments.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ConsumerPredicate/ConsumerData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ConsumerPredicate/ConsumerMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ConsumerPredicate/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ConsumerPredicate/EmployeeList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ConsumerPredicate/PredicateMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RoundingNumbers/RoundingOfNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SupplierPasswordGenerator/SupplierMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SupplierPasswordGenerator/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lambda/SortEmployees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lambda/ThreadToPrintEmpAndUsers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lambda/UserNameGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SupplierPasswordGenerator/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SupplierPasswordGenerator/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -49,7 +41,9 @@
     "Application.ConsumerMain.executor": "Run",
     "Application.PredicateMain.executor": "Run",
     "Application.RoundingOfNumbers.executor": "Run",
+    "Application.SortEmployees.executor": "Run",
     "Application.SupplierMain.executor": "Run",
+    "Application.ThreadToPrintEmpAndUsers.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
@@ -63,7 +57,7 @@
       <recent name="C:\Users\User\Training\Assessments\src\ConsumerPredicate" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SupplierMain">
+  <component name="RunManager" selected="Application.ThreadToPrintEmpAndUsers">
     <configuration name="ConsumerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ConsumerPredicate.ConsumerMain" />
       <module name="Assessments" />
@@ -90,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoundingOfNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RoundingNumbers.RoundingOfNumbers" />
+    <configuration name="SortEmployees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lambda.SortEmployees" />
       <module name="Assessments" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RoundingNumbers.*" />
+          <option name="PATTERN" value="Lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +110,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadToPrintEmpAndUsers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lambda.ThreadToPrintEmpAndUsers" />
+      <module name="Assessments" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadToPrintEmpAndUsers" />
+        <item itemvalue="Application.SortEmployees" />
         <item itemvalue="Application.SupplierMain" />
         <item itemvalue="Application.PredicateMain" />
         <item itemvalue="Application.ConsumerMain" />
-        <item itemvalue="Application.RoundingOfNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -141,6 +149,15 @@
       <option name="presentableId" value="Default" />
       <updated>1712561192147</updated>
     </task>
+    <task id="LOCAL-00001" summary="Rounding Numbers,Consumer Predicate ,Password Generator">
+      <option name="closed" value="true" />
+      <created>1712568443786</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712568443786</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
