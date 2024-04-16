@@ -25,6 +25,13 @@ class Even implements StrategyForSum {
         return numbers.stream().filter(n -> n % 2 == 0).mapToInt(Integer::intValue).sum();
     }
 }
+
+    class Prime implements StrategyForSum {
+        @Override
+        public int sum(List<Integer> numbers) {
+            return numbers.stream().filter(SumWithUserChoice::isPrime).mapToInt(Integer::intValue).sum();
+        }
+    }
 class CalculateSum {
     private StrategyForSum strategy;
 
@@ -52,6 +59,7 @@ public class SumWithUserChoice {
         System.out.println("1. All");
         System.out.println("2. Odd");
         System.out.println("3. Even");
+        System.out.println("4. Prime");
         int choice = scanner.nextInt();
 
         switch (choice) {
@@ -64,6 +72,9 @@ public class SumWithUserChoice {
             case 3:
                 calculator.setStrategy(new Even());
                 break;
+            case 4:
+                calculator.setStrategy(new Prime());
+                break;
             default:
                 System.out.println("Invalid choice");
                 return;
@@ -73,5 +84,17 @@ public class SumWithUserChoice {
         System.out.println("Total: " + sum);
 
         scanner.close();
+    }
+
+    public static boolean isPrime(int num) {
+        if (num <= 1) {
+            return false;
+        }
+        for (int i = 2; i <= Math.sqrt(num); i++) {
+            if (num % i == 0) {
+                return false;
+            }
+        }
+        return true;
     }
 }
